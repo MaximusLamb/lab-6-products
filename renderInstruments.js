@@ -25,6 +25,6 @@ function renderInstruments(instrument) {
 
 
     return list;
-};
+}
 
 export default renderInstruments;
