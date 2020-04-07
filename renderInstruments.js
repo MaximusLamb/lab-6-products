@@ -1,5 +1,5 @@
 function renderInstruments(instrument) {
-    const list = document.createElement('li');
+    const list = document.createElement('ul');
 
     const h2 = document.createElement('h2');
     h2.textContent = instrument.name;
