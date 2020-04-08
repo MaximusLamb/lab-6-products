@@ -13,9 +13,6 @@ function renderInstruments(instrument) {
     const instrumentCategory = document.createElement('h2');
     instrumentCategory.textContent = instrument.category;
 
-    // const instrumentPrice = document.createElement('h5');
-    // instrumentPrice.textContent = '$' + instrument.price;
-
     const button = document.createElement('button');
     button.textContent = '$' + instrument.price;
     button.value = instrument.id;

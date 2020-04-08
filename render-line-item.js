@@ -1,7 +1,7 @@
 import findById, { calcLineItem } from './utils.js';
-import cart from './cart.js';
-import brokenInstruments from './brokenInstruments.js';
-let orderTotalPrice = document.getElementById('order-total-amount');
+// import cart from './cart.js';
+// import brokenInstruments from './brokenInstruments.js';
+// let orderTotalPrice = document.getElementById('order-total-amount');
 
 export default function renderLineItem(cartItem, instruments) {
     const tr = document.createElement('tr');
