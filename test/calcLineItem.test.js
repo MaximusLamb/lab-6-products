@@ -3,11 +3,13 @@
 
 const test = QUnit.test;
 
+import { calcLineItem } from '../utils.js';
+
 test('calcLineItem test', function(assert) {
     //Arrange
     // Set up your parameters and expectations
-    const expected = 'max';
-    const result = 'max';
+    const expected = 1000;
+    const result = calcLineItem(20, 50);
     //Act 
     // Call the function you're testing and set the result to a const
 
