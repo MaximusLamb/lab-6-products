@@ -13,10 +13,10 @@ export default function renderLineItem(cartItem, instruments) {
     quantityTd.textContent = cartItem.quantity;
 
     const priceTd = document.createElement('td');
-    priceTd.textContent = instruments.price;
+    priceTd.textContent = '$' + instruments.price.toFixed(2);
 
     const totalTd = document.createElement('td');
-    totalTd.textContent = cartItem.quantity * instruments.price;
+    totalTd.textContent = '$' + (cartItem.quantity * instruments.price).toFixed(2);
 
     tr.appendChild(nameTd);
     tr.appendChild(quantityTd);
@@ -41,6 +41,3 @@ export function calcOrderTotal(cartItem, brokenInstruments) {
     }
 
 }
-
-// const total = calcOrderTotal(cart, brokenInstruments);
-// orderTotalPrice.textContent = total;
