@@ -10,7 +10,7 @@ test('find the id function', (assert) => {
     // const result = calcLineItem();
     // const expected = ;
     const expected = { id: 1,
-        name: 'Rusty trumpet',
+        name: 'Rusty Trumpet',
         category: 'brass',
         image: 'https://az58332.vo.msecnd.net/e88dd2e9fff747f090c792316c22131c/Images/Products62075-1200x1200-1649647.jpg',  
         value: '1',
