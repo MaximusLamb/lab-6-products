@@ -2,7 +2,7 @@
 
 const trumpet = {
     id: 1,
-    name: 'Rusty trumpet',
+    name: 'Rusty Trumpet',
     category: 'brass',
     image: 'https://az58332.vo.msecnd.net/e88dd2e9fff747f090c792316c22131c/Images/Products62075-1200x1200-1649647.jpg',  
     value: '1',
@@ -12,7 +12,7 @@ const trumpet = {
 
 const drumkit = {
     id: 2,
-    name: 'Destroyed drums',
+    name: 'Set of Destroyed Drums',
     category: 'drums',
     image: 'https://s3.amazonaws.com/images.static.steveweissmusic.com/products/images/uploads/1136796_33909_popup.jpg',
     value: '2',
@@ -22,7 +22,7 @@ const drumkit = {
 
 const guitar = {
     id: 3,
-    name: 'Halved guitar',
+    name: 'Halved Guitar',
     category: 'strings',
     image: 'https://d1aeri3ty3izns.cloudfront.net/media/25/251309/1200/preview_2.jpg',
     value: '3',
@@ -32,7 +32,7 @@ const guitar = {
 
 const bass = {
     id: 4,
-    name: 'Drowned bass',
+    name: 'Drowned Bass',
     category: 'bass',
     image: 'https://images.reverb.com/image/upload/s--hLgzeFps--/f_auto,t_large/v1557248021/gpxirvi4bggpgmzsbrcs.jpg',   
     value: '4',
@@ -42,7 +42,7 @@ const bass = {
 
 const triangle = {
     id: 5,
-    name: '2/3rds missing triangle',
+    name: '2/3rds Missing Triangle',
     category: 'other',
     image: 'https://i.pinimg.com/originals/40/70/f5/4070f5286ba0fff1940fe7026f35d606.jpg',    
     value: '5',
@@ -52,7 +52,7 @@ const triangle = {
 
 const synth = {
     id: 6,
-    name: 'Mostly missing synth',
+    name: 'Mostly Missing Synth',
     category: 'keys',
     image: 'https://cornermusic.com/images/products/49274.jpg',   
     value: '6',
