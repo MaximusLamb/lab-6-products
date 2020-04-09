@@ -27,7 +27,7 @@ function renderInstruments(instrument) {
         // create a second shopping cart as a vessel from localStorage
         let shoppingCart;
 
-        // if jsonCart (which is localstoragre) is empty, create an empty array
+        // if jsonCart (which is localstorage) is empty, create an empty array
         if (jsonCart) {
             // shopping cart is equal to the parsed(unstringified) version of jsoncart
             shoppingCart = JSON.parse(jsonCart);
