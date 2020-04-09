@@ -1,5 +1,5 @@
 import findById from './utils.js';
-import shoppingCart from './shoppingCart.js';
+// import shoppingCart from './shoppingCart.js';
 
 
 function renderInstruments(instrument) {
