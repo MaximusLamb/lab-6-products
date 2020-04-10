@@ -37,6 +37,7 @@ function renderInstruments(instrument) {
         }
             // itemchoice is equal to the findbyid function which takes in the shopping cart amount and matches it with the id of instrument
         let itemChoice = findById(shoppingCart, instrument.id);
+        console.log(itemChoice);
         // if item chosen doesnt exist create an id and add 1 quantity to it
         if (!itemChoice) {
             itemChoice = {
